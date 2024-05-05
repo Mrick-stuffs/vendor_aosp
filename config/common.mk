@@ -251,6 +251,10 @@ CUSTOM_LOCALES += \
     cy_GB \
     fur_IT
 
+# Themes
+PRODUCT_PACKAGES += \
+    ThemePicker
+
 include vendor/aosp/config/version.mk
 
 # OTA
